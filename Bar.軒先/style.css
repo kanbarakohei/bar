@@ -1,0 +1,61 @@
+/*フェードイン設定*/
+
+.fadein {
+	opacity : 0;
+	transform : translate(0, 50px);
+	transition:all 1s;
+}
+.fadein.scrollin {
+	opacity : 1;
+	transform : translate(0, 0);
+}
+ul {
+	list-style-type: none;
+}
+
+/* ここまでフェードイン */
+
+body{
+    text-align: center;
+}
+
+h1{
+    margin: 5px;
+}
+
+.hazimete{
+    border-bottom: black 2px;
+}
+
+.info{
+    font-size:30px;
+}
+
+.info1{
+    font-weight: bold;
+}
+
+.time{
+    font-size: 25px;
+}
+
+header img{
+    height: 300px;
+}
+ 
+.clear{
+    clear: both;
+}
+
+/* アイコン */
+.icon{
+    float: left;
+    width: 20%;
+}
+.icon img{
+    width: 95%;
+}
+ 
+.icon p{
+    font-size:15px;
+}
